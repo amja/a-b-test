@@ -33,8 +33,7 @@ app.static_folder = 'static'
 # This is the root endpoint.
 @app.route('/', methods=['GET'])
 def root():
-    # probability = random.uniform(0, 1)
-    probability = 0;
+    probability = random.uniform(0, 1)
     if probability < 0.5:
         return render_template('A.html')
     else:
