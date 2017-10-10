@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script type="text/javascript">      
+    <script type="text/javascript">
         var timerStart = Date.now();
         console.log('Page Load:' + timerStart)
         var uniq_session = timerStart;
@@ -50,15 +50,14 @@
     <!-- TODO: Feel free to modify anything inside main.css-->
     <link rel="stylesheet" href="/static/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    
+
     <title>Find Memphis Taxis online</title>
   </head>
 
   <body>
     <header>
       <h1>Memphis Taxis </h1>
-      <p>This page contains information about taxi and cab companies in Memphis, Tennessee.</p>
-      <p>Not endorsed by any of the companies listed, or the city of Memphis.</p>
+      <p>The best town in Tennessee</p>
     </header>
 
     <!--
@@ -69,36 +68,38 @@
     Easiest thing is to have just the two buttons we already have and try to play around
     with layouts of it.
     -->
+    <div id="vendors">
+      <div class="vendor-wrapper">
+        <img src="/static/yellow.png" class="vendor-photo" />
+                  <p>Safe, Reliable Taxi Services from Yellow Cab and Checker Cab are available
+                in the Memphis Metro area 24 hours a day.</p>
+                <button class="vendor-book-button btn btn-primary" type="submit" id="mp1">Reserve with YellowCab
+                    Taxis</button>
+      </div>
+      <div class="vendor-wrapper">
+        <img src="/static/ridecharge.png" class="vendor-photo" />
+           <p>Our drivers are the most professional drivers in the industry. Our drivers
+                are licensed and required to successfully complete a formal training.</p>
+           <button class="vendor-book-button btn btn-primary" type="submit" id="mp2">Reserve with RideCharge taxi</button>
+      </div>
 
-    <div class="vendor-wrapper">
-      <img src="/static/memphis.png" class="vendor-photo" />
-      <button class="vendor-book-button btn btn-primary" type="submit" id="mp1">Reserve with YellowCab
-          Taxis</button>
-                <p>Safe, Reliable Taxi Services from Yellow Cab and Checker Cab are available
-              in the Memphis Metro area 24 hours a day.</p>
-    </div>
-    <div class="vendor-wrapper">
-      <img src="/static/memphis2.png" class="vendor-photo" />
-      <button class="vendor-book-button btn btn-primary" type="submit" id="mp2">Reserve with RideCharge taxi</button>
-         <p>Our drivers are the most professional drivers in the industry. Our drivers
-              are licensed and required to successfully complete a formal training.</p>
-    </div>
+      <div class="vendor-wrapper">
+      <img src="/static/uber.png" class="vendor-photo" />
+       <p> We are so much cheaper than taxis..! </p>
+       <button class="vendor-book-button btn btn-primary" type="submit" id="mp3">Reserve with Memphis Uber</button>
+      </div>
 
-    <div class="vendor-wrapper">
-    <img src="/static/uber.png" class="vendor-photo" />
-   
-    <button class="vendor-book-button btn btn-primary" type="submit" id="mp3">Reserve with Memphis Uber</button>
-     <p> We are so much cheaper than taxis..! </p>
+      <div class="vendor-wrapper">
+        <img src="http://premierofmemphis.com/wp-content/uploads/2013/07/Premier-Medium-300x127.png" class="vendor-photo" />
+         <p>Our goal is to efficiently
+                transport our passengers in a safe, polite and timely manner at a fair
+                price.</p>
+        <button class="vendor-book-button btn btn-primary" type="submit" id="mp4">Reserve with Premier taxi</button>
+      </div>
     </div>
-
-    <div class="vendor-wrapper">
-      <img src="/static/premiere.png" class="vendor-photo" />
-      <button class="vendor-book-button btn btn-primary" type="submit" id="mp4">Reserve with Premier taxi</button>
-       <p>Our goal is to efficiently
-              transport our passengers in a safe, polite and timely manner at a fair
-              price.</p>
-    </div>
-
+    <footer>
+      <p>Not endorsed by any of the companies listed, or the city of Memphis.</p>
+    </footer>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
         var timeLoaded = Date.now()

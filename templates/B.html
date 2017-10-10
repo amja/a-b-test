@@ -57,7 +57,7 @@
 
   <body>
     <header>
-      <h1>Memphis Taxis Created by OUR VERY COOL TEAM:</h1> <!-- TODO: Add your team name here. -->
+      <h1>Memphis Taxis by Team Chill Vibes:</h1> <!-- TODO: Add your team name here. -->
         <!-- Some of the ideas could be, making it pretty, making it look real, make it look reliable
             choosing attractive image etc, showing that your taxis are cheaper than X/Y..
             Show your juice of creativity.
@@ -66,43 +66,42 @@
              -->
         <!-- TODO: For those tech savvy users, feel free to beautify the site, using css. -->
          <!-- TODO: Feel free to update the content -->
-      <p>This page contains information about taxi and cab companies in Memphis, Tennessee.</p>
-      <p>Not endorsed by any of the companies listed, or the city of Memphis.</p>
+      <p>The best town in Tennessee</p>
     </header>
+    <div id="vendors">
+      <div class="vendor-wrapper">
+          <!--TODO: Change the image -->
+        <img src="/static/yellow.png" class="vendor-photo" />
+         <p>Safe, Reliable Taxi Services from Yellow Cab and Checker Cab are available
+                in the Memphis Metro area 24 hours a day.</p>
+         <button class="vendor-book-button btn btn-primary" type="submit" id="mp1">I love taxis!</button>
+      </div>
 
-    <div class="vendor-wrapper">
-        <!--TODO: Change the image -->
-      <img src="/static/memphis.png" class="vendor-photo" />
+      <div class="vendor-wrapper">
+          <!--TODO: Change the image -->
+        <img src="/static/ridecharge.png" class="vendor-photo" />
+         <p>Our drivers are the most professional drivers in the industry. Our drivers
+                are licensed and required to successfully complete a formal training.</p>
+        <button class="vendor-book-button btn btn-primary" type="submit" id="mp2">I love taxis!</button>
+      </div>
 
-      <button class="vendor-book-button btn btn-primary" type="submit" id="mp1">TODO: Change me</button>
-       <p>Safe, Reliable Taxi Services from Yellow Cab and Checker Cab are available
-              in the Memphis Metro area 24 hours a day.</p>
+       <div class="vendor-wrapper">
+      <img src="/static/uber.png" class="vendor-photo" />
+       <p> We are so much cheaper than taxis..! </p>
+       <button class="vendor-book-button btn btn-primary" type="submit" id="mp3">I love taxis!</button>
+      </div>
+
+      <div class="vendor-wrapper">
+        <img src="http://premierofmemphis.com/wp-content/uploads/2013/07/Premier-Medium-300x127.png" class="vendor-photo" />
+         <p>Our goal is to efficiently
+                transport our passengers in a safe, polite and timely manner at a fair
+                price.</p>
+        <button class="vendor-book-button btn btn-primary" type="submit" id="mp4">I love taxis!</button>
+      </div>
     </div>
-
-    <div class="vendor-wrapper">
-        <!--TODO: Change the image -->
-      <img src="/static/memphis2.png" class="vendor-photo" />
-      <button class="vendor-book-button btn btn-primary" type="submit" id="mp2">TODO: Change me</button>
-       <p>Our drivers are the most professional drivers in the industry. Our drivers
-              are licensed and required to successfully complete a formal training.</p>
-    </div>
-
-     <div class="vendor-wrapper">
-    <img src="/static/uber.png" class="vendor-photo" />
-
-    <button class="vendor-book-button btn btn-primary" type="submit" id="mp3">TODO: Change me</button>
-     <p> We are so much cheaper than taxis..! </p>
-    </div>
-
-    <div class="vendor-wrapper">
-      <img src="/static/premiere.png" class="vendor-photo" />
-      <button class="vendor-book-button btn btn-primary" type="submit" id="mp4">TODO: Change me</button>
-       <p>Our goal is to efficiently
-              transport our passengers in a safe, polite and timely manner at a fair
-              price.</p>
-    </div>
-
-
+    <footer>
+      <p>Not endorsed by any of the companies listed, or the city of Memphis.</p>
+    </footer>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
         var timeLoaded = Date.now()
