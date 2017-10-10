@@ -5,3 +5,4 @@ staticfiles
 .idea
 ab_test.csv
 log
+.DS_Store
