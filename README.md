@@ -1,28 +1,8 @@
 # A/B Testing
 
+## Why?
 
-### NOTE: This file has some general information. Please read the Mac/Windows specific readme file for specific instructions.
-
-
-## Overview
-
-A/B testing is a user research technique, which is used to test
-which among the A or B version is better design.
-
-For a commercial marketplace the success metric could be
-calculated based on "conversion rate".
-
-
-## What does this project do?
-
-This project does simple A/B testing, of 2 versions of a website.
-The metrics collected could then be used to see which version 
-among the baseline(A) or variant(B) performed better.
-
-
-# Running the flask server
-
-These steps are used for running and testing locally.
+This project allowed us to perform an A/B test on two versions of a website we designed to test whether various attributes affected certain important metrics (e.g. dwell time, clickthrough rate). This was for an assignment for CSCI1300: User Interface and User Experience at Brown University.
 
 
 ## Running and testing it locally.
